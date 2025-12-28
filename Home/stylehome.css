@@ -1,0 +1,81 @@
+@media only screen and (max-width: 768px) {
+    body{
+        background-image: url(https://i.pinimg.com/1200x/a5/a1/d9/a5a1d90067f2287c6781fda1e07daf5a.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .items {
+        display: flex;      
+        flex-direction: column;
+        gap: 15px;  
+        align-items: center;    
+    
+}
+}
+    
+.main{
+    padding: 50px;
+ /*   background-image: url(https://i.pinimg.com/736x/b2/69/75/b26975a5c8222ba127de7c4c8284e460.jpg);*/
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.95), rgba(96, 5, 14, 0.95), rgba(0, 0, 0, 0.95));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center center;
+    color: #ffffff
+    
+}
+.Welcome ,h2{
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.95), rgba(247, 0, 25, 0.95), rgba(0, 0, 0, 0.95)); background-clip:text;background-clip: text; color:transparent;
+    font-family:  sans-serif;
+}
+.boxhome {
+    text-align: center; 
+    margin: auto;
+    width: 60%;
+ 
+}
+.items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.item{
+    background-size: cover;
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    margin-bottom: 100px;
+    
+}
+#item1{
+    background-image: url(https://i.pinimg.com/736x/f6/84/fd/f684fdc5a7895e83d2cdb48301f1155d.jpg);
+}
+#item2{
+    background-image: url(https://i.pinimg.com/736x/31/06/c2/3106c248508bfe63d6436eeb12a30aed.jpg);
+}
+#item3{
+    background-image: url(https://i.pinimg.com/1200x/5f/4e/69/5f4e69dcfcf9f1c57a2284b1079bc778.jpg);
+}
+.whiteimg{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    opacity: 0.3;
+}
+img:hover{
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 2em;
+}
