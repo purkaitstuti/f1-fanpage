@@ -15,7 +15,7 @@
 }
 
 .logo {
-    padding-left: 50px;
+    padding: 50px;
     width: 50px;
 }
 
@@ -43,8 +43,7 @@
     display: inline-block;
     cursor: default;
     font-weight: 800;
-    padding-left: 140px;
-    position: relative;
+    padding-left: 100px;
 }
 
 .hero span:hover {
@@ -74,44 +73,50 @@
     }
     .logo {
         padding: 10px;
+        width: auto;
     }
     .logo img {
         width: 40px;
     }
     .hero {
-        font-size: 20px;
-        padding: 20px;
+        flex: 1;
+        font-size: 18px;
+        text-align: center;
+        padding: 0;
     }
     .hero span {
-        padding-left: 79px;
+        padding-left: 0;
+        line-height: 1.0;
     }
     .navbar {
-        gap: 5px;
+        gap: 8px;
+        padding-right: 0px;
     }
+
     .navbar a {
         font-size: 12px;
     }
     .box {
         height: auto;
-        grid-template-columns: 1fr;   
+        grid-template-columns: 1fr;
         padding: 20px;
         margin: 15px;
     }
     .right {
         grid-column: 1;
         grid-row: auto;
-        order: -1;  
+        order: -1;
     }
     .right img {
         max-width: 150px;
     }
     .name {
-        font-size: 36px;
+        font-size: 32px;
         text-align: center;
     }
     .info {
         font-size: 14px;
-        line-height: 1;
+        line-height: 1.2;
         text-align: center;
     }
     .btn {
