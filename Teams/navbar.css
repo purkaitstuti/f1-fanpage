@@ -3,13 +3,17 @@
     margin: 0;
 }
 .header {
-    height: 100px;
-    background-color: rgb(32, 30, 30);
+    height: 10vh;
+    background: linear-gradient(
+    to bottom,
+    #15151E,
+    #0f0f16
+);
+
     display: flex;
     align-items: center;
     color: rgb(240, 37, 37);
-    font-family: "Oxanium", sans-serif;
-    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: normal;
     position: relative;
 }
@@ -42,7 +46,7 @@
     transition: transform 0.3s ease;
     display: inline-block;
     cursor: default;
-    font-weight: 800;
+    font-weight: 300;
     padding-left: 100px;
 }
 
@@ -67,6 +71,9 @@
     transform: translateY(-2px);
 }
 @media only screen and (max-width: 768px) {
+    .main{
+        gap:20px;
+    }
     .header {
         height: 70px;
         padding: 0 10px;
@@ -98,15 +105,17 @@
         font-size: 12px;
     }
     .box {
+        min-width: 0px;
         height: auto;
         grid-template-columns: 1fr;
-        padding: 20px;
-        margin: 15px;
+        padding: 10px;
+        flex: 0 0 calc(50% - 10px);
     }
     .right {
         grid-column: 1;
         grid-row: auto;
         order: -1;
+        align-self: start;
     }
     .right img {
         max-width: 150px;
