@@ -27,7 +27,6 @@
 h2 {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.95), rgba(247, 0, 25, 0.95), rgba(0, 0, 0, 0.95));
     background-clip: text;
-    background-clip: text;
     color: transparent;
     font-family: sans-serif;
     padding: 20px;
